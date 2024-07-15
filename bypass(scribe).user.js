@@ -33,7 +33,7 @@
             links.forEach(link => {
                 const href = link.getAttribute('href');
                 if (href && href.startsWith('/')) {
-                    link.href = domain + href;
+                    link.href = "https://scribe.rip" + link.href;
                 }
             });
         }
